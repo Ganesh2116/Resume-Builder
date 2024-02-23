@@ -1,5 +1,5 @@
 import React from "react";
-import Steps from "./Components/Steps";
+import Steps from "./components/Steps";
 import { Center, Flex, Title } from "@mantine/core";
 
 const App = () => {

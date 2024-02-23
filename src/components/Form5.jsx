@@ -1,23 +1,11 @@
-import { Button, Flex, Group, Input, Title } from "@mantine/core";
-import React from "react";
-import { useState } from "react";
-import { useForm } from "react-hook-form";
+import { Flex, Input, Title } from "@mantine/core";
+import { useFormContext } from "react-hook-form";
 
 const Form5 = () => {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm();
-  const [userForm4, setUserForm4] = useState([]);
+  const { register } = useFormContext();
 
-  const onSubmit = (data) => {
-    setUserForm4([...userForm4, data]);
-    // reset();
-  };
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <>
       {/* skills group */}
       <Title order={3}>Skills</Title>
       <Flex gap="lg" pt="20">
@@ -107,12 +95,7 @@ const Form5 = () => {
           w="33.33%"
         />
       </Flex>
-      <Flex justify="center" align="center" pt="50">
-        <Button variant="filled" type="submit" value="submit">
-          Submit
-        </Button>
-      </Flex>
-    </form>
+    </>
   );
 };
 export default Form5;
