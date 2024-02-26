@@ -40,22 +40,22 @@ const Form3 = () => {
         <Input
           type="text"
           placeholder="Institue/Organisation"
-          {...register("institue1")}
+          {...register("institue2")}
         />
         <Input
           type="text"
           placeholder="Position"
-          {...register("institue1position")}
+          {...register("institue2position")}
         />
         <Input
           type="number"
           placeholder="Duration"
-          {...register("institue1duration")}
+          {...register("institue2duration")}
         />
         <Input
           type="text"
           placeholder="Description"
-          {...register("institue1description")}
+          {...register("institue2description")}
         />
       </Flex>
     </Flex>

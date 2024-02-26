@@ -53,7 +53,7 @@ const Form2 = () => {
         <Input
           type="text"
           placeholder="Collage/Unviersity*"
-          {...register("collageunviersity")}
+          {...register("clgunviersity")}
           required
         />
         <Input

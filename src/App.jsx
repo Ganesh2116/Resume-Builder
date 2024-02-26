@@ -8,7 +8,7 @@ const App = () => {
       <Center maw={1200} mx="auto" pb={100} pt={20}>
         <Flex direction="column" gap="lg" pt="50">
           <Title order={3} size="h1">
-            Resume buildber
+            Resume Buildber
           </Title>
           <Steps />
         </Flex>
