@@ -1,6 +1,6 @@
 # Resume Builder
 
-This App made for create cv .
+This app is designed to help you create a professional CV.
 
 ### Tech used -
 
